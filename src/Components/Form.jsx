@@ -30,9 +30,9 @@ const Form = (props) => {
     <form onSubmit={onSubmitHandler}>
       <label htmlFor="isim">İsim</label>
       <hr />
-      <input id="isim" type="text" value={isim} onChange={onChangeHandler} />
+      <input id="isim" type="text" onChange={onChangeHandler} />
       <hr />
-      <label htmlFor="email" value={email}>
+      <label htmlFor="email">
         Email
       </label>
       <hr />
